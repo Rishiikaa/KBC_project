@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,34,0,0,4,79"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="20" width="970" height="440"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Following are the terms that shall be applicable to the Activity:&#xa;1. The Activity is open only to Indian citizens, residing in India. Citizens and/or residents of countries other than&#xa;India are not eligible to participate. Citizens and/or residents of countries other than India residing in India are&#xa;not eligible to participate.&#xa;2. The Participants must be adults having attained the age of eighteen (18) years to participate in the Activity as on&#xa;the date of the Activity.&#xa;(All persons fulfilling conditions mentioned in section 1 &amp; 2 shall be hereinafter referred to as &#x201c;Participants&#x201d;)&#xa;3. Activity shall be open for participation as per the timelines specified in the T&amp;Cs for Activity.&#xa;4. Employees, agents and promoters (including their immediate family members) of SPN and any of their divisions,&#xa;affiliates and subsidiaries, and others associated with the Activity in any manner, are not eligible to participate in&#xa;the Activity.&#xa;5. The Activity terms and conditions shall be mentioned on SPN website http://www.setindia.com (&#x201c;Website&#x201d;). The&#xa;Participants agree that by participating in the Activity, the Participants shall be bound by the terms and conditions&#xa;provided at the Website.&#xa;6. The Participants shall be required to provide basic personal information about them including but not limited to&#xa;Participants name, address, telephone number or mobile number and email address in order to register and&#xa;participate in the Activity. The information provided by the Participants may be used by SPN for internal purposes&#xa;and to send in the future to the Participants promotional information pertaining to the SPN network.&#xa;7. The specific requirements for the Activity shall be outlined in the T&amp;Cs of the Activity.&#xa;8. For the Activity, each Participant must submit their complete entry in order to qualify as an entrant in the Activity&#xa;(&#x201c;Entries&#x201d;) through Specific Mode of Participation specified in Specific T&amp;C&#x2019;s stated at end of this T&amp;C.&#xa;9. The manner, day and the basis of choosing the winner (defined below) shall be specified in the T&amp;Cs of the Activity.&#xa;10. The announcement about the Winners and the Prize(s) (defined below) shall be as per the T&amp;Cs of the Activity. "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="I agree to the terms and conditions"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="490" width="220" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
